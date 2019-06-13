@@ -1,0 +1,33 @@
+.services {
+  background: #404040;
+  padding: 4rem 0;
+  color: #f7f7f7;
+  font-family: "Lato", sans-serif;
+}
+.center {
+  width: 80vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-column-gap: 2rem;
+}
+.service {
+  margin: 2rem 0;
+  text-align: center;
+}
+.service span {
+  /* background: var(--primaryColor); */
+  padding: 0.5rem;
+  display: inline-block;
+  font-size: 2.7rem;
+  margin-bottom: 1.5rem;
+}
+.service h4 {
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 1.3rem;
+}
+
+.service p {
+  font-size: 1.2rem;
+}

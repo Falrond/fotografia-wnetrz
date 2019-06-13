@@ -1,0 +1,14 @@
+.phone-button {
+  background: none;
+  border: none;
+  color: var(--mainWhite);
+  margin: 0 0.7rem;
+  font-size: 1.3rem;
+  transition: var(--mainTransition);
+}
+
+.phone-button:hover {
+  color: var(--mainBlack);
+  transform: translateY(-5px);
+  cursor: pointer;
+}
