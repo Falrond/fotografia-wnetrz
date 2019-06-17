@@ -76,7 +76,7 @@ a {
 }
 .btn-white:hover {
   background: var(--mainWhite);
-  color: var(--primaryColor);
+  color: #333;
 }
 .btn-primary {
   background: var(--primaryColor);

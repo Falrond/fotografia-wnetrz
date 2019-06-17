@@ -12,6 +12,7 @@
   margin-top: 3rem;
   color: #f7f7f7;
   font-size: 1.22rem;
+  text-align: center;
 }
 .about-img {
   position: relative;
@@ -43,6 +44,7 @@
   .about-img,
   .about-info {
     margin: 0;
+    text-align: left;
   }
   .about-img img {
     max-height: 500px;

@@ -5,6 +5,7 @@
   padding: 1rem;
   text-align: center;
   color: var(--mainWhite);
+  z-index: 1;
 }
 .links a {
   display: inline-block;

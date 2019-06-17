@@ -1,5 +1,6 @@
 .navbar {
   background-color: #222;
+  z-index: 1;
 }
 
 .nav-header {
@@ -52,7 +53,7 @@
   letter-spacing: var(--mainSpacing);
 }
 .nav-links a:hover {
-  color: var(--primaryColor);
+  color: red;
 }
 
 .nav-social-links {

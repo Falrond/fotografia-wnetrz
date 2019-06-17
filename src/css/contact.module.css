@@ -1,0 +1,43 @@
+.contact {
+  padding: 4rem 0;
+}
+.center {
+  width: 80vw;
+  margin: 0 auto;
+}
+@media screen and (min-width: 992px) {
+  .center {
+    width: 40vw;
+    margin: 0 auto;
+  }
+}
+label {
+  text-transform: capitalize;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+.formControl,
+.submit {
+  width: 100%;
+  font-size: 1.3rem;
+  color: white;
+  font-family: "Open sans";
+  letter-spacing: 2px;
+  background: none;
+  border: 2px solid white;
+  margin-bottom: 1rem;
+  padding: 0.7rem 0.5rem;
+  border-radius: 0.25rem;
+}
+.submit {
+  margin: 0 auto;
+  background-color: none;
+  text-transform: uppercase;
+  transition: var(--mainTransition);
+  cursor: pointer;
+}
+.submit:hover {
+  background: #eee;
+  color: #333;
+  /* border-color: var(--darkGrey); */
+}
