@@ -4,8 +4,8 @@
   color: var(--mainWhite);
 }
 .banner h1 {
-  font-size: 3.3rem;
-  /* font-family: "Open Sans", sans-serif; */
+  font-size: 3rem;
+  font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
   margin-bottom: 2rem;
   padding: 0 1rem;
@@ -16,7 +16,7 @@
   width: 85%;
   margin: 0 auto;
   margin-bottom: 2rem;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-family: "Open Sans", sans-serif;
 }
 @media screen and (min-width: 768px) {

@@ -15,10 +15,11 @@
   margin: 0.5rem 1rem;
   letter-spacing: var(--mainSpacing);
   transition: var(--mainTransition);
+  font-size: 1.1rem;
   /* font-weight: bold; */
 }
 .links a:hover {
-  color: var(--primaryColor);
+  color: #adadad;
 }
 .icons a {
   display: inline-block;
