@@ -11,9 +11,9 @@ const getSessions = graphql`
       edges {
         node {
           name
-          date
+          slug
+          contentful_id
           images {
-            title
             fluid {
               ...GatsbyContentfulFluid_tracedSVG
             }

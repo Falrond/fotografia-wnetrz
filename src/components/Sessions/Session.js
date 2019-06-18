@@ -4,7 +4,7 @@ import styles from "../../css/session.module.css"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 const Session = ({ session }) => {
-  const { name, date, images, slug } = session
+  const { name, images, slug } = session
   let mainImage = images[0].fluid
   return (
     <article className={styles.session}>
