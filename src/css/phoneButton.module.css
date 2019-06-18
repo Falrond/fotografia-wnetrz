@@ -8,7 +8,7 @@
 }
 
 .phone-button:hover {
-  color: var(--mainBlack);
+  color: #adadad;
   transform: translateY(-5px);
   cursor: pointer;
 }

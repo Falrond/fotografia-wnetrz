@@ -28,7 +28,9 @@
   transition: var(--mainTransition);
 }
 .icons a:hover {
-  color: var(--primaryColor);
+  color: #adadad;
+  transform: translateY(-5px);
+  cursor: pointer;
 }
 .copyright {
   text-transform: capitalize;

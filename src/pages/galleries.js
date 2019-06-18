@@ -2,9 +2,14 @@ import React from "react"
 import Layout from "../components/Layout"
 import { graphql } from "gatsby"
 import FluidHero from "../components/FluidHero"
+import Sessions from "../components/Sessions/Sessions"
 
 const galleries = () => {
-  return <Layout>dupa</Layout>
+  return (
+    <Layout>
+      <Sessions />
+    </Layout>
+  )
 }
 
 export default galleries

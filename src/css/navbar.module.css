@@ -34,26 +34,26 @@
 }
 .nav-links {
   list-style-type: none;
-  transition: var(--mainTransition);
+  transition: ease-in-out 0.6s;
   height: 0;
   overflow: hidden;
 }
 .show-nav {
-  height: 190px;
+  height: 220px;
 }
 .nav-links a {
   display: block;
-  padding: 1rem 1.5rem;
+  padding: 1.4rem 1.5rem;
   text-decoration: none;
   text-transform: capitalize;
   color: var(--mainWhite);
   transition: var(--mainTransition);
   /* font-weight: bold; */
-  /* font-size: 1rem; */
+  font-size: 1.1rem;
   letter-spacing: var(--mainSpacing);
 }
 .nav-links a:hover {
-  color: red;
+  color: #adadad;
 }
 
 .nav-social-links {
@@ -91,7 +91,7 @@
     transition: var(--mainTransition);
   }
   .nav-social-links a:hover {
-    color: var(--mainBlack);
+    color: #adadad;
     transform: translateY(-5px);
     cursor: pointer;
   }

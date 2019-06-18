@@ -11,7 +11,6 @@ const Navbar = () => {
   const [isSpread, setNav] = useState(false)
   const navToggle = () => {
     setNav(isSpread => !isSpread)
-    console.log("dupa")
   }
 
   return (

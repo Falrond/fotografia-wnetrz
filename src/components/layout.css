@@ -25,10 +25,10 @@
 
 body {
   font-family: "Lato", sans-serif;
-  color: var(--mainBlack);
+  color: #303030;
   background: var(--mainBlack);
   line-height: 1.4;
-  font-size: 1rem;
+  /* font-size: 1rem; */
 }
 h1,
 h2,
@@ -95,4 +95,5 @@ main {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  /* background-color: #303030; */
 }

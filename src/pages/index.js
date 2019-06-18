@@ -8,6 +8,7 @@ import About from "../components/Home/About"
 import Services from "../components/Home/Services"
 import FluidHero from "../components/FluidHero"
 import { graphql } from "gatsby"
+import FeaturedSessions from "../components/Home/FeaturedSessions"
 
 export default ({ data }) => (
   <Layout>
@@ -23,6 +24,7 @@ export default ({ data }) => (
     </FluidHero>
     <About />
     <Services />
+    <FeaturedSessions />
   </Layout>
 )
 
