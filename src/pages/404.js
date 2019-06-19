@@ -11,7 +11,7 @@ export default function error() {
       <header className={styles.error}>
         <Banner title="uups.. coś poszło nie tak...">
           <AniLink fade to="/" className="btn-white">
-            wróć do strony głównej
+            strona główna
           </AniLink>
         </Banner>
       </header>
